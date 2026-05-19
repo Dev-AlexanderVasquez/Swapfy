@@ -8,16 +8,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css">  
+  <link rel="stylesheet" href="css/styles.css">  
 </head>
 <body>
-<!-- NAVBAR -->
 
-    <header>
+  <!-- Navbar -->
+
+<header>
     <div class="container">
       <nav>
 
-  <div class="logo">swapfy</div>
+  <div class="logo">
+    <img  src="img/LogoColor.png"  alt="">
+    <h3>Swapfy</h3>
+  </div>
 
   <div class="menu-toggle" id="menu-toggle">
     ☰
@@ -26,11 +30,12 @@
   <div class="nav-right" id="nav-right">
 
     <div class="nav-links">
-      <a href="#">Cómo funciona</a>
-      <a href="#">Características</a>
-      <a href="#">Beneficios</a>
-      <a href="#">Testimonios</a>
-      <a href="#">Impacto</a>
+      <a href="#Hero">Inicio</a>
+      <a href="#How">Cómo funciona</a>
+      <a href="#caracteristicas">Características</a>
+      <a href="#Beneficios">Beneficios</a>
+      <a href="#Testimonios">Testimonios</a>
+      <a href="#Impacto">Impacto</a>
     </div>
 
     <div class="nav-buttons">
@@ -44,10 +49,10 @@
     </div>
   </header>
 
-  <!-- HERO -->
+  <!-- Hero section -->
 
   <section>
-    <div class="container hero">
+    <div class="container hero" id="Hero">
 
       <div>
         <h1>
@@ -67,34 +72,33 @@
 
         <div class="listVerification">
           <div class="lv">
-             <img src="./img/verificados.png" alt="" class="">
+             <img src="img/verificados.png" alt="" class="">
              <p>Perfiles verificados</p>
           </div>
           <div>
-            <img src="./img/seguridad.png" alt="" class="">
+            <img src="img/seguridad.png" alt="" class="">
             <p>Intercambios seguros</p>
           </div>
           <div>
-            <img src="./img/ubicacion.png" alt="" class="">
+            <img src="img/ubicacion.png" alt="" class="">
             <p>Cerca de ti</p>
           </div>
         </div>
       </div>
 
       <div class="hero-image">
-        <img src="./img/phone2.png" alt="" class="phone">
+        <img src="img/phone2.png" alt="" class="phone">
       </div> 
     </div>
   </section>
 
-  <!-- Problems -->
-    <section class="problem-section">
+  <!-- Problemas -->
+
+  <section class="problem-section">
 
     <h1 class="title">¿Te pasa esto?</h1>
 
     <div class="content">
-
-      <!-- LEFT SIDE -->
 
       <div class="cards">
 
@@ -120,13 +124,9 @@
 
       </div>
 
-      <!-- CENTER -->
-
       <div class="divider">
         <div class="arrow">➜</div>
       </div>
-
-      <!-- RIGHT SIDE -->
 
       <div class="solution">
 
@@ -145,9 +145,9 @@
 
   </section>
 
-  <!-- HOW SECTION -->
+  <!-- Como funciona -->
 
-  <section class="how-section">
+  <section class="how-section" id="How">
 
     <h1 class="title">¿Cómo funciona?</h1>
 
@@ -155,12 +155,10 @@
 
     <div class="steps">
 
-      <!-- STEP 1 -->
-
       <div class="step-card">
 
         <div class="icon-circle">
-          <img src="./img/phoneicon.png" alt="" class="">
+          <img src="img/phoneicon.png" alt="" class="">
         </div>
 
         <h3>Publica</h3>
@@ -171,12 +169,10 @@
 
       </div>
 
-      <!-- STEP 2 -->
-
       <div class="step-card">
 
         <div class="icon-circle">
-          <img src="./img/searchicon.png" alt="" class="">
+          <img src="img/searchicon.png" alt="" class="">
         </div>
 
         <h3>Encuentra</h3>
@@ -187,12 +183,10 @@
 
       </div>
 
-      <!-- STEP 3 -->
-
       <div class="step-card">
 
         <div class="icon-circle">
-          <img src="./img/messageicon.png" alt="" class="">
+          <img src="img/messageicon.png" alt="" class="">
         </div>
 
         <h3>Conecta</h3>
@@ -203,12 +197,10 @@
 
       </div>
 
-      <!-- STEP 4 -->
-
       <div class="step-card">
 
         <div class="icon-circle">
-          <img src="./img/exchangeicon.png" alt="" class="">
+          <img src="img/exchangeicon.png" alt="" class="">
         </div>
 
         <h3>Intercambia</h3>
@@ -223,20 +215,18 @@
 
   </section>
 
-  <!-- features-section -->
+  <!-- Caracteristicas -->
 
-  <section class="features-section">
+  <section class="features-section" id="caracteristicas">
 
     <h1 class="title">Características Principales</h1>
 
     <div class="features-grid">
 
-      <!-- CARD 1 -->
-
       <div class="feature-card">
 
         <div class="icon-circle green">
-          <img src="./img/perfilverificado.png" alt="" class="">
+          <img src="img/perfilverificado.png" alt="" class="">
         </div>
 
         <h3>Perfiles verificados</h3>
@@ -249,12 +239,10 @@
 
       </div>
 
-      <!-- CARD 2 -->
-
       <div class="feature-card">
 
         <div class="icon-circle orange">
-          <img src="./img/geolocalizacion.png" alt="" class="">
+          <img src="img/geolocalizacion.png" alt="" class="">
         </div>
 
         <h3>Geolocalización</h3>
@@ -267,12 +255,10 @@
 
       </div>
 
-      <!-- CARD 3 -->
-
       <div class="feature-card">
 
         <div class="icon-circle yellow">
-          <img src="./img/conecta.png" alt="" class="">
+          <img src="img/conecta.png" alt="" class="">
         </div>
 
         <h3>Conecta</h3>
@@ -285,12 +271,10 @@
 
       </div>
 
-      <!-- CARD 4 -->
-
       <div class="feature-card">
 
         <div class="icon-circle blue">
-          <img src="./img/ia.png" alt="" class="">
+          <img src="img/ia.png" alt="" class="">
         </div>
 
         <h3>Reconocimiento con IA</h3>
@@ -301,12 +285,10 @@
 
       </div>
 
-      <!-- CARD 5 -->
-
       <div class="feature-card">
 
         <div class="icon-circle purple">
-          <img src="./img/intercambioseguro.png" alt="" class="">
+          <img src="img/intercambioseguro.png" alt="" class="">
         </div>
 
         <h3>Intercambios seguros</h3>
@@ -321,11 +303,464 @@
 
   </section>
 
-  <!-- FOOTER -->
+<!-- Beneficios -->
 
-  <footer>
+  <section class="benefits-section" id="Beneficios">
 
-    
+    <div class="benefits-left">
+
+      <h2>
+        Beneficios para ti y el planeta
+      </h2>
+
+      <div class="benefits-list">
+
+        <div class="benefit-item">
+          <div class="check">✓</div>
+          <p>Ahorra dinero todos los días</p>
+        </div>
+
+        <div class="benefit-item">
+          <div class="check">✓</div>
+          <p>Reduce residuos y cuida el ambiente</p>
+        </div>
+
+        <div class="benefit-item">
+          <div class="check">✓</div>
+          <p>Libera espacio en casa</p>
+        </div>
+
+        <div class="benefit-item">
+          <div class="check">✓</div>
+          <p>Encuentra productos útiles</p>
+        </div>
+
+        <div class="benefit-item">
+          <div class="check">✓</div>
+          <p>Intercambia con seguridad</p>
+        </div>
+
+        <div class="benefit-item">
+          <div class="check">✓</div>
+          <p>Forma parte de una comunidad sostenible</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="phone-container">
+      <img src="img/phoneBeneficios.png" alt="Swapfy App">
+    </div>
+
+    <div class="benefits-right">
+
+      <h2>
+        Lleva <span>Swapfy</span> contigo
+      </h2>
+
+      <p>
+        Descarga la app y comienza a intercambiar
+        desde donde estés.
+      </p>
+
+      <div class="store-buttons">
+
+        <img 
+          src="img/appstore.png" 
+          alt="App Store"
+        >
+
+        <img 
+          src="img/playstore.png" 
+          alt="Google Play"
+        >
+
+      </div>
+
+      <div class="web-version">
+        <img 
+          src="img/wordIcon.png" 
+          alt="App Store">
+        <p>También disponible en la web</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+
+  <section class="testimonials-section" id="Testimonios">
+
+    <h1 class="title">
+      Lo que dicen Nuestros usuarios
+    </h1>
+
+    <div class="testimonials-grid">
+
+      <!-- TESTIMONIAL 1 -->
+
+      <div class="testimonial-card">
+
+        <img 
+          src="https://randomuser.me/api/portraits/men/32.jpg" 
+          alt="Usuario"
+        >
+
+        <div class="testimonial-content">
+
+          <p class="testimonial-text">
+            “Conseguí libros para mi ciclo sin gastar de más.
+            La app es súper fácil de usar.”
+          </p>
+
+          <div class="user-info">
+            <h3>Javier, 21 años</h3>
+            <p>Estudiante de Arquitectura</p>
+          </div>
+
+          <div class="stars">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- TESTIMONIAL 2 -->
+
+      <div class="testimonial-card">
+
+        <img 
+          src="https://randomuser.me/api/portraits/women/44.jpg" 
+          alt="Usuario"
+        >
+
+        <div class="testimonial-content">
+
+          <p class="testimonial-text">
+            “Por fin una alternativa más segura que Marketplace.
+            Intercambié mi bata y encontré una calculadora.”
+          </p>
+
+          <div class="user-info">
+            <h3>Ingrid, 21 años</h3>
+            <p>Estudiante de Ingeniería</p>
+          </div>
+
+          <div class="stars">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- TESTIMONIAL 3 -->
+
+      <div class="testimonial-card">
+
+        <img 
+          src="https://randomuser.me/api/portraits/men/75.jpg" 
+          alt="Usuario"
+        >
+
+        <div class="testimonial-content">
+
+          <p class="testimonial-text">
+            “Me encanta que esté cerca de mi zona
+            y que pueda confiar en quien publica.
+            Muy recomendada.”
+          </p>
+
+          <div class="user-info">
+            <h3>Néstor, 25 años</h3>
+            <p>Estudiante de Arquitectura</p>
+          </div>
+
+          <div class="stars">
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+            <span class="star">★</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Impacto -->
+
+  <section class="impact-section" id="Impacto">
+
+    <div class="impact-container">
+
+      <!-- LEFT -->
+
+      <div class="impact-left">
+
+        <h2>
+          Cada intercambio genera impacto
+        </h2>
+
+        <p>
+          Juntos construimos un futuro más sostenible.
+        </p>
+
+      </div>
+
+      <!-- RIGHT STATS -->
+
+      <div class="impact-stats">
+
+        <!-- CARD 1 -->
+
+        <div class="stat-card">
+
+          <div class="icon-circle">
+           <img 
+          src="img/objetosreutilizados.png" 
+          alt="">
+          </div>
+
+          <div class="stat-number">
+            12,458
+          </div>
+
+          <div class="stat-label">
+            Objetos<br>reutilizados
+          </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+
+        <div class="stat-card">
+
+          <div class="icon-circle">
+            <img 
+          src="img/8toneladas.png" 
+          alt="">
+          </div>
+
+          <div class="stat-number">
+            8,2 ton
+          </div>
+
+          <div class="stat-label">
+            CO2 evitado
+          </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div class="stat-card">
+
+          <div class="icon-circle">
+            <img 
+          src="img/usuariosconectados.png" 
+          alt="">
+          </div>
+
+          <div class="stat-number">
+            5,320
+          </div>
+
+          <div class="stat-label">
+            Usuarios<br>activos
+          </div>
+
+        </div>
+
+        <!-- CARD 4 -->
+
+        <div class="stat-card">
+
+          <div class="icon-circle">
+            <img 
+          src="img/ecocoins.png" 
+          alt="">
+          </div>
+
+          <div class="stat-number">
+            25,680
+          </div>
+
+          <div class="stat-label">
+            EcoCoins<br>generadas
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Calltoaction -->
+
+  <section class="cta-section">
+
+    <!-- LEFT CONTENT -->
+
+    <div class="cta-left">
+
+      <h2>
+        Empieza hoy a intercambiar<br>
+        <span>de manera inteligente.</span>
+      </h2>
+
+      <p>
+        Únete a miles de personas que ya están
+        haciendo la diferencia.
+      </p>
+
+    </div>
+
+    <!-- BUTTONS -->
+
+    <div class="cta-buttons">
+
+      <a href="#" class="btn btn-primary">Descarga la app</a>
+      <a href="#" class="btn btn-secondary">Unirme a Swapfy</a>
+
+    </div>
+
+    <!-- IMAGE -->
+
+    <div class="cta-image">
+
+      <img 
+          src="img/cta.png" 
+          alt="">
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <div class="footer-top">
+
+        <!-- BRAND -->
+
+        <div class="footer-brand">
+
+          <div class="logoF">
+           <img  src="img/LogoWhite.png"  alt="">
+            <h2>Swapfy</h2>
+          </div>
+
+          <p>
+            La plataforma que conecta personas
+            para intercambiar y cuidar del planeta.
+          </p>
+
+          <div class="social-icons">
+
+            <a href="#"><img src="img/facebook.png"  alt="facebook"></a>
+            <a href="#"><img src="img/instagram.png"  alt="instagram"></a>
+            <a href="#"><img src="img/tiktok.png"  alt="tiktok"></a>
+            <a href="#"><img src="img/whatsapp.png"  alt="whatsapp"></a>
+
+          </div>
+
+        </div>
+
+        <!-- ENLACES -->
+
+        <div class="footer-column">
+
+          <h3>Enlaces rápidos</h3>
+
+          <ul>
+            <li><a href="#">Como funciona</a></li>
+            <li><a href="#">Características</a></li>
+            <li><a href="#">Beneficios</a></li>
+            <li><a href="#">Testimonios</a></li>
+            <li><a href="#">Impacto</a></li>
+          </ul>
+
+        </div>
+
+        <!-- AYUDA -->
+
+        <div class="footer-column">
+
+          <h3>Ayuda</h3>
+
+          <ul>
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Seguridad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+
+        </div>
+
+        <!-- COMUNIDAD -->
+
+        <div class="footer-column">
+
+          <h3>Comunidad</h3>
+
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Consejos de sostenibilidad</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Alianzas</a></li>
+          </ul>
+
+        </div>
+
+        <!-- APP -->
+
+        <div class="footer-column">
+
+          <h3>Descarga la App</h3>
+
+          <div class="store-buttons">
+
+            <img src="img/playstore.png"  alt="Google Play">
+            <img src="img/appstore.png" alt="App Store">
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- BOTTOM -->
+
+      <div class="footer-bottom">
+
+        <p>
+          © 2026 Swapfy, Todos los derechos reservados
+        </p>
+
+      </div>
+
+    </div>
 
   </footer>
   <script>
