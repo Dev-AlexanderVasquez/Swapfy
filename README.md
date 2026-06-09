@@ -17,7 +17,7 @@ El objetivo del proyecto es promover la reutilización de productos, reducir res
 🖼️ Vista previa
 
 <p align="center">
-  <img  src="assets/img/Desktop-Mockup.png"  width="500">
+  <img  src="docs/assets/img/Desktop-Mockup.png"  width="500">
 </p>
 
 ------------------------------------------------------------------------------------------
